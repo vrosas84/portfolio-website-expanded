@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Bootstrap Icon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" 
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!--FontAwesome CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <!--Custom CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./static/images/favicon.ico" type="image/x-icon">
+    <title>Vince Rosas</title>
+</head>
+<body>
+<!--HEADER START-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top" id="mainNavbar">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><span id="navFirstName">Vince</span> <span id="navLastName">Rosas</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list fs-1" id="menuToggle"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="photography.html">Photography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="menuContact" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--HEADER END-->
+<!--HERO START-->
+    <section id="hero">
+        <div class="container">
+            <h1 class="text-center mt-5 fw-bold">I am a <span id="heroTyped"></span></h1>
+            <div class="row">
+                <div class="col-md-1 social d-none d-md-flex flex-column justify-content-center">
+                    <a href="https://www.linkedin.com/in/vince-rosas" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin socials"></i></a>
+                    <a href="https://www.twitter.com/vinniemac84" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter socials"></i></a>
+                    <a href="https://www.instagram.com/rosas.vince" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram socials"></i></a>
+                    <a href="https://github.com/vrosas84" target="_blank" rel="noopener noreferrer"><i class="bi bi-github socials"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <img src="./static/images/puntacanasittingdown.webp" width="100%" alt="logo" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-7 d-flex flex-column justify-content-center">
+                    <div class="hero-content px-lg-5">
+                        <p>When leading a team, don't just provide direction, help your team learn and grow. Encourage and drive them to be the best they can be.
+                            Their success can lead to your success. That could be through recognition of your leadership skills, or the people you encouraged moved
+                            up in their career and remember who helped them.
+                        </p>
+                        <a href="#contact" class="btn me-2 contactBtn">Contact</a>
+                        <a href="./static/files/Resume20221224.pdf" class="btn btn-outline-light contactBtnOutline"><i class="bi bi-file-earmark-arrow-down me-1"></i>Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--HERO END-->
+
+    <!--ABOUT START-->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">About Me</h3>
+                <p class="text-center fw-bold sub-title">Who am I?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-5">
+                    <img src="static/images/aboutme.webp" alt="about me" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-12 col-lg-7 gx-4" id="aboutbody">
+                    <p>It's funny, for as technically inclined as I am, most of my work experience is not in a tech role like IT support. I've been working for 20 years, 
+                        and roughly half of that at most has been in a technical role. Most of my work experience has been in some kind of sales role. I spent the first 10 
+                        years of my work history doing consumer sales. Now I was selling technology (phones, computers, etc), but I didn't have a technical role.
+                    </p>
+                    <p> While I wasn't working in a tech role, I've always been involved in technology in one way or another. Whether it was learning HTML/CSS on my own in high 
+                        school, taking self-paced online courses to learn programming languages, or most recently, getting my BS degree in IT and also starting to get into 
+                        home-labbing and virtualization. I was taking classes online through <a href="https://www.snhu.edu" target="_blank" rel="noopener noreferrer">
+                        Southern New Hampshire University (SNHU)</a>, who was very supportive. I took classes part time most of the time, which unfortunately slowed me down.
+                        However, I was also working full-time, typically 50-60 hours a week or more. Even with the long hours at work, I managed to graduate <i>Magna Cum Laude</i>,
+                        with a 3.8 GPA.
+                    </p>
+                    <p>I'm actually still with that company now. I've been with them since 2016 and have worked my way up. I was lucky enough to find an employer
+                        who encouraged me to learn, but also rewarded me for it and gave me lots of opportunities to learn and grow. I'll always be grateful to them 
+                        for all the support and encouragement they provided me. I've always strived to show my gratitude to them by working as best as I can. Those efforts
+                        haven't gone unnoticed. In 2020, I won one of our company's first recognition awards, the "Extreme Ownership Champion", for my dedication. In 2022, 
+                        I was a winner of our first ever "Epic Achievers Club", which recognizes the highest achievers in the company.
+                    </p>
+                    <!--Need to link to more detailed page with...resume maybe? SNHU about me and statement of work combined?-->
+                    <!--<a href="#" class="btn contactBtn">Read More</a>-->
+                    <div class="row mt-5 text-center exp">
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="20">20</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>EXPERIENCE</p>
+                        </div>
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="9">9</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>PROJECTS</p>
+                        </div>
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="1">0</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>CUSTOMERS</p>
+                        </div>
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="2">2</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>AWARDS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--ABOUT END-->
+
+<!--SKILS START-->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Skills</h3>
+                <p class="text-center fw-bold sub-title">What do I know?</p>
+            </div>
+            <!--may add another row here to do a short explainer on my skills, but that could also be covered in about me section-->
+            <div class="row gap-3 justify-content-center">
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-html-5-96-white.png" alt="html">
+                    <h5>HTML</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-css3-100-white.png" alt="css">
+                    <h5>CSS</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%">25%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-javascript-100-white.png" alt="javascript">
+                    <h5>Javasript</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 15%">15%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-python-100-white.png" alt="Python">
+                    <h5>Python</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%">25%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-networking-96-white.png" alt="networking">
+                    <h5>Networking</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-ip-camera-96-white.png" alt="ip camera">
+                    <h5>IP Cameras</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 75%">75%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-video-96-white.png" alt="vms">
+                    <h5>VMS</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-computer-96-white.png" alt="it support">
+                    <h5>IT Support</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 75%">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--SKILS END-->
+
+<!--SERVICES START-->
+<!--No services currently offered. Probably will remove before posting-->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Services</h3>
+                <p class="text-center fw-bold sub-title">What do I do?</p>
+            </div>
+            <div class="row">
+                <h3 class="fw-bold text-center services-disclaimer">Currently, no services offered.</h3>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-4 service-box mt-3 text-center">
+                    <img src="/static/images/service1.png" alt="service1" class="img-fluid mb-3">
+                    <h3 class="fw-bold">Service 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius vel nam ipsa at molestiae qui voluptate omnis temporibus nobis. Aspernatur itaque nisi dolor cumque. Dicta magnam quam vero harum.</p>
+                </div>
+                <div class="col-lg-4 service-box mt-3 text-center">
+                    <img src="/static/images/service2.png" alt="service1" class="img-fluid mb-3">
+                    <h3 class="fw-bold">Service 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius vel nam ipsa at molestiae qui voluptate omnis temporibus nobis. Aspernatur itaque nisi dolor cumque. Dicta magnam quam vero harum.</p>
+                </div>
+                <div class="col-lg-4 service-box mt-3 text-center">
+                    <img src="/static/images/service3.png" alt="service1" class="img-fluid mb-3">
+                    <h3 class="fw-bold">Service 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius vel nam ipsa at molestiae qui voluptate omnis temporibus nobis. Aspernatur itaque nisi dolor cumque. Dicta magnam quam vero harum.</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+<!--SERVICES END-->
+
+<!--PORTFOLIO START-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Portfolio</h3>
+                <p class="text-center fw-bold sub-title">What did I do?</p>
+            </div>
+            <div class="row">
+                <div class=" text-center" id="portfoliobody">
+                    <p>This is a list of some of the projects I've completed. Currently these are all from my time at <a href="http://www.snhu.edu" 
+                        target="_blank" rel="noopener noreferrer">SNHU</a> and some are projects I completed at work. These demonstrate 
+                        thought processes necessary to compete various tasks, from project management and planning to execution. As well 
+                        as some of the skills listed in the <a href="#skills">Skills</a> section above. I have some more recent projects 
+                        will be posting to show what I've learned of the other topics, such as python. This website itself serves as a 
+                        project as well. I've been using it to learn more HTML/CSS/JS and other frontend technologies.
+                    </p>
+                </div>
+            </div>
+            <!--Do I want to add another row, or div to add some small bit of text?-->
+            <div class="row row-cols-1 row-cols-sm-2 row cols-md-3 gy-3 p-1">
+                <!--Outcome 1 Dialog-->
+                <button id="outcomeone" class="btn projectbtn">
+                    <img src="./static/images/projects/outcome-one.webp" alt="outcome one" srcset="">
+                </button>
+                <!--Outcome 2 Dialog-->
+                <button id="outcometwo" class="btn projectbtn">
+                    <img src="./static/images/projects/outcome-two.webp" alt="outcome two" srcset="">
+                </button>
+                <!--Outcome 3 Dialog-->
+                <button id="outcomethree" class="btn projectbtn">
+                    <img src="./static/images/projects/outcome-three.webp" alt="outcome three" srcset="">
+                </button>
+                <!--Outcome 4 Dialog-->
+                <button id="outcomefour" class="btn projectbtn">
+                    <img src="./static/images/projects/outcome-four.webp" alt="outcome four" srcset="">
+                </button>
+                <!--Outcome 5 Dialog-->
+                <button id="outcomefive" class="btn projectbtn">
+                    <img src="./static/images/projects/outcome-five.webp" alt="outcome five" srcset="">
+                </button>
+                <!--Outcome 6 Dialog-->
+                <button id="outcomesix" class="btn projectbtn">
+                    <img src="./static/images/projects/outcome-six.webp" alt="outcome six" srcset="">
+                </button>
+            </div>
+        </div>
+    </section>
+<!--Project Modals Start-->
+<!--Project1 Modal Start-->
+    <dialog id="projectone" class="project-file">
+        <div class="projectpreviewheader sticky-top">
+            <h2 class="text-center">Project One</h2>
+            <div class="text-center">
+                <button id="cancelone" class="btn btn-outline-light contactBtnOutline" type="reset">Close</button>
+                <a href="./SNHUProjects/outcomeone.html" class="btn btn-outline-light contactBtnOutline">More Details</a>
+            </div>
+            <hr>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-9">
+            <h4 class="fw-bold">F-Secure DNS Integration: Project Proposal</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <p>This project is my IT415 Final Project part 1. It was created in semester 20EW1 which ran from September through October of 2020. It is a project proposal written to convince decision makers of the benefit of the project.</p>
+                <p>This project proposal required the ability to analyze computing and business problems and produce a solution. The proposal required analyzing the technical and non-technical risks associated with the project as well. The proposed solution required knowledge of advanced networking, a security-first approach, and project planning.</p>
+                <p>I chose this item because it displays multiple skills in one item. The private networking used in the project highlights knowledge of advanced networking. It also shows knowledge of security principles by building incorporating security protocols from the start instead of being an add-on. The detailed project timeline shows the ability to design a project and plan for unexpected events.</p>
+                <p>Most of what I learned from creating this artifact was how to think critically and examine problems from multiple angles. Creating this artifact required I examine the problem from a business perspective and a technical perspective. Creating this gives me useful experience in creating project proposals which will certainly be needed in my career as I advance. </p>
+                <p>The biggest challenge in creating this artifact was time. Creating the artifact was not a problem but having the time to fully complete it was. I doubt this would be a problem in a work environment since I currently am splitting my time between work and school.</p>
+            </div>
+        </div>
+    </dialog>
+<!--Project1 Modal End-->
+<!--Project2 Modal Start-->
+    <dialog id="projecttwo" class="project-file">
+        <div class="projectpreviewheader sticky-top">
+        <h2 class="text-center">Project Two</h2>
+        <div class="text-center">
+            <button id="canceltwo" class="btn btn-outline-light contactBtnOutline" type="reset">Close</button>
+            <a href="./SNHUProjects/outcometwo.html" class="btn btn-outline-light contactBtnOutline">More Details</a>
+        </div>
+        <hr>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-9">
+                <h4 class="fw-bold">F-Secure DNS Integration: Project Plan and System Design Document</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <p>This project is my IT415 Final Project part 2. It was created in semester 20EW1 which ran from September through October of 2020. It is a project implementation plan and system design document.</p>
+                <p>It required the ability to create a solution, design a plan, and determine what resources would be needed to implement the solution. The plan I developed for this project required evaluating what hardware and software would be needed to complete the plan. This required knowledge of hardware, software, networking, and security.</p>
+                <p>The proposal required analyzing the technical and non-technical risks associated with the project as well. The proposed solution required knowledge of advanced networking, a security-first approach, and project planning.</p>
+                <p>This artifact taught me how to evaluate requirements better and how to create project documents such as Gantt charts, work breakdown structures, and project timelines. These skills are particularly important to have as they are necessary skills to effectively work on projects in IT.</p>
+                <p>I selected this artifact because it showed a complete example of the outcome. The project clearly demonstrates my ability to design a solution and create an implementation plan.</p>
+                <p>Like part one of the project, the biggest challenge on this was time. I was confident in my knowledge of the subjects, and being a quick learner, I wasn't afraid of picking up new skills like working with Gantt chats and work breakdown structures.</p>
+                <p>I haven't had the chance to do much project management since I graduated, but I feel confident I would be able to handle it, given enough time.</p>
+            </div>
+        </div>
+    </dialog>
+<!--Project2 Modal End-->
+<!--Project3 Modal Start-->
+    <dialog id="projectthree" class="project-file">
+        <div class="projectpreviewheader sticky-top">
+        <h2 class="text-center">Project Three</h2>
+        <div class="text-center">
+            <button id="cancelthree" class="btn btn-outline-light contactBtnOutline" type="reset">Close</button>
+            <a href="./SNHUProjects/outcomethree.html" class="btn btn-outline-light contactBtnOutline">More Details</a>
+        </div>
+        <hr>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-9">
+                <h4 class="fw-bold">Effective Communication</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <p>The artifacts I have chosen are examples of communication with clients. This will take the form of documentation of a technical and non-technical nature that I have created for clients.</p>
+                <p>These documents are customer made user guides for desktop and mobile applications for multiple video management systems (VMS), as well as a hardware troubleshooting guide for a piece of custom hardware made by my employer</p>
+                <p>For the user guides for the various VMS, creating a guide that a non-technical user could follow required a breadth of knowledge of the various programs, their capabilities, and common uses. It also required being able to see the software from an inexperienced user's perspective and not take any pre-existing knowledge I have of procedures for granted.</p>
+                <p>For the hardware guide, one would have to know and understand how the hardware is built and how the various components communicate with each other. Some of the employees who had been there longer than I didn't understand the hardware as well as I did.</p>
+                <p>Creating these software and hardware guides required being able to communicate technical details in a simplistic way that non-technical people can understand. It required understanding the technology being used so I would be able to communicate it effectively to people of multiple skill levels.</p>
+                <p>Clients of all levels use these documents, from entry level to C level staff. Technical and non-technical staff use these documents to use the systems developed and implemented by our company. These guides cover both hardware and software of varying levels of complexity</p>
+                <p>I feel the depth of knowledge I have on the various hardware and software components involved in creating these guides is clearly evident. It shows that I have spent a lot of time with the components and take my work seriously.</p>
+                <p>At the time I made the hardware guide, only the hardware's original designers knew the equipment better than I did. I would use this knowledge to help train the other employees so they could become better at their jobs</p>
+                <p>Being the quick learner that I am allows me to pick up on new topics quickly and then train others on how to use a given piece of hardware or software. </p> 
+                <p>The biggest challenge when creating these documents is being able to describe and simplify the procedures required for the tasks that the client needs to complete. Being able to do this in a clear, professional manner while not being too long or unengaging can be difficult.</p>
+            </div>
+        </div>
+    </dialog>
+<!--Project3 Modal End-->
+<!--Project4 Modal Start-->
+    <dialog id="projectfour" class="project-file">
+        <div class="projectpreviewheader sticky-top">
+        <h2 class="text-center">Project Four</h2>
+        <div class="text-center">
+            <button id="cancelfour" class="btn btn-outline-light contactBtnOutline" type="reset">Close</button>
+            <a href="./SNHUProjects/outcomefour.html" class="btn btn-outline-light contactBtnOutline">More Details</a>
+        </div>
+        <hr>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-9">
+                <h4 class="fw-bold">Wilbur's Widgets GAP Analysis</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <p>The artifact I have chosen is the GAP Analysis for Wilbur’s Widgets. This was created during semester 20EW5, which ran May through June of 2020. The purpose of this artifact was to analyze a business and create a report that showed areas the business was lacking in with respect to Information Technology, and legal and ethical standards.</p>
+                <p>Creating this artifact required understanding which business and IT processes were covered by which legal standards. It also required creating multiple Acceptable Use Policies to cover many aspects of the business’s IT infrastructure.</p>
+                <p>Creating these policies meant having to balance security and use and understanding ethical standards of technology use.</p>
+                <p>Creating this artifact gives me experience in applying ethical and legal standards to business processes and examining those processes from multiple angles</p>
+                <p>I selected this artifact because it showed my ability to take into consideration multiple legal and ethical standards and create policies based on these standards. The policies created in this artifact demonstrate my ability to recognize professional responsibilities that come from following these standards.</p>
+                <p>The Acceptable Use Policies (AUP) created in this document show my ability to understand legal and ethical standards and create policies to enforce them.</p>
+                <p>The biggest challenge in creating this artifact was the complexity of the multiple laws that could apply to the business. The laws can be difficult to understand because of the legal language used.</p>
+                <p>When doing this in the real world, having legal advice on whether a law applies can save time and money. If I had to create the artifact again now, I would spend more time researching other AUPs so it would be more complete.</p>
+            </div>
+        </div>
+    </dialog>
+<!--Project4 Modal End-->
+<!--Project5 Modal Start-->
+    <dialog id="projectfive" class="project-file">
+        <div class="projectpreviewheader sticky-top">
+        <h2 class="text-center">Project Five</h2>
+        <div class="text-center">
+            <button id="cancelfive" class="btn btn-outline-light contactBtnOutline" type="reset">Close</button>
+            <a href="./SNHUProjects/outcomefive.html" class="btn btn-outline-light contactBtnOutline">More Details</a>
+        </div>
+        <hr>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-9">
+                <h4 class="fw-bold">Work Summary</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <p>The artifact I have chosen is a summary of my first four months in a management position. I created it during this semester, 20EW2, which runs from November through December of 2020. I created it to show how I have worked alongside my current coworkers the last 4 years and how I have led them the past 4 months.</p>
+                <p>Because this is a summary of my, at the time, recent work experience, the only requirements and knowledge needed were skills I already possessed. At least on the technical side. One set of skills I was lacking that could have made this time be more productive would be more experience managing people.</p>
+                <p>In the summary, I show how I while working side by side with my coworkers, I encouraged them to grow and learn more to be better employees. I also show how, as their manager now, I have continued to encourage their growth.</p>
+                <p>I believe in leading by example and I have never asked them to do something I was incapable of doing or was not willing to learn. My coworkers know I understand the ins and outs of their jobs because we had the same job for four years. There may be some resentment because they have been at the company for longer than I have but they also know I stand by them and want them to grow.</p>
+                <p>I would not say I learned anything when creating this summary, however, I will say that I realized how much I have accomplished in just a brief period. This is only my second time being in an official position of management, but it is the first time I feel like the people I work with look up to me as a manager and look to me for direction.</p>
+                <p>Creating this document helped me by forcing me to examine my accomplishments and leadership style. These skills are necessary to grow in a business to justify asking for raises and promotions and offering them to subordinates.</p>
+            </div>
+        </div>
+    </dialog>
+<!--Project5 Modal End-->
+<!--Project6 Modal Start-->
+    <dialog id="projectsix" class="project-file">
+        <div class="projectpreviewheader sticky-top">
+        <h2 class="text-center">Project Six</h2>
+        <div class="text-center">
+            <button id="cancelsix" class="btn btn-outline-light contactBtnOutline" type="reset">Close</button>
+            <a href="./SNHUProjects/outcomesix.html" class="btn btn-outline-light contactBtnOutline">More Details</a>
+        </div>
+        <hr>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-9">
+                <h4 class="fw-bold">Outlook to Gmail Transition Training</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <p>The artifact I have chosen is the Final Project for IT-385. It was created in semester 20EW3, which runs from January through February of 2020. The project required creating a training manual for a company to train their employees how to use Google services in a business environment.
+                <p>When creating this artifact, it required creating a training manual that could be used by people of multiple levels of technical proficiency. The training had to include information on doing basic business tasks as well as more advanced features of the service. I needed to be able to identify the needs of multiple groups of users, examine what tasks they would need to be able to replicate on Google services from Microsoft Outlook.</p>
+                <p>After identifying the required tasks, I also needed to be able to examine groups of users’ technical proficiency and adjust the wording and graphics to be considerate of the varied skills of the people receiving the training.</p>
+                <p>I chose this item because I think it showcases my ability to identify and analyze user needs and consider them when creating and administrating computer systems. Specifically, the training shows basic tasks in enough detail that someone unfamiliar with Google services would be able to perform those tasks. The training manual includes enough graphics to show users what needs to be done. By creating a static document instead of just videos, it also gives users the ability to print of sections to quickly reference sections when necessary.</p>
+                <p>The biggest difficulty when creating this document was deciding how many tasks to include in the training and ensuring that the document was complete without being dull or boring to an end user. It needed to be engaging enough to keep the readers attention but not flamboyant or unprofessional.</p>
+                <p>If I had to create this artifact again I may have done in it a different format such as a PowerPoint presentation so videos or audio could be included and used if the user wanted.</p>
+            </div>
+        </div>
+    </dialog>
+<!--Project6 Modal End-->
+<!--Project Modals End-->
+<!--PORTFOLIO END-->
+
+<!--CONTACT START-->
+<section id="contact">
+    <div class="container">
+        <div class="section-title">
+            <h3 class="text-center fw-bold main-title">Contact</h3>
+            <p class="text-center fw-bold sub-title">Contact Me</p>
+        </div>
+        <div class="row gx-5">
+            <div class="text-center mb-2">
+                <div class="contact-bg d-flex flex-column justify-content-center rounded-4">
+                    <h3>You can reach me using the info below</h3>
+                    <div class="contact-info d-flex flex-column justify-content-center gap-1">
+                        <!--do I want to have my number posted? Maybe say "available upon request" for now?-->
+                        <a href="tel:+12095058608"><i class="bi bi-phone contact-ico me-2"></i>available upon request</a>
+                        <!--need to replace this with vincentrosas.com email-->
+                        <a href="mailto:rosas.v@att.net"><i class="bi bi-envelope-at contact-ico me-2"></i>info[@]vincentrosas[.]com</a>
+                        <a href="#"><i class="bi bi-geo-alt contact-ico me-2"></i>Idaho Falls, ID, US</a>
+                    </div>
+                </div>
+            </div>
+            <!--need to setup email service...should link to vincentrosas.com address-->
+            <!--
+            <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control shadow-none" id=inputName" placeholder="Enter Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control shadow-none" id=email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control shadow-none" id=subject" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control shadow-none" id="emailbody" placeholder="Enter Your Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn" id="menuContact" >Send</button>
+                </form>
+            </div>-->
+        </div>
+    </div>
+</section>
+<!--CONTACT END-->
+
+<!--FOOTER START-->
+<footer class="mt-5">
+    <div class="container">
+        <div class="footer-logo">
+            <div class="d-flex justify-content-center">
+                <img src="static/images/VINCE-ROSAS-Logo.webp" alt="logo" width="50px">
+            </div>
+            <div class="col p-0 ms-1 text-center"><span id="navFirstName"><i class="bi bi-c-circle"></i> 2023 Vince</span> <span id="navLastName">Rosas</span> </div>
+            </div>
+        </div>
+        <div class="footer-social d-flex justify-content-center gap-3 mb-2">
+            <a href="https://www.linkedin.com/in/vince-rosas" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin socials"></i></a>
+            <a href="https://www.twitter.com/vinniemac84" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter socials"></i></a>
+            <a href="https://www.instagram.com/rosas.vince" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram socials"></i></a>
+            <a href="https://github.com/vrosas84" target="_blank" rel="noopener noreferrer"><i class="bi bi-github socials"></i></a>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+<!--Typed JS-->
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+<!--Bootstrap JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--Main JS-->
+<script src="main.js"></script>
+</body>
+</html>
