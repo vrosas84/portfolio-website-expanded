@@ -293,6 +293,9 @@ form input,textarea{
 .section-heading {
     color: var(--canvared);
 }
+.link {
+    color: var(--canvared);
+}
 /*Photography*/
 .photoBody {
     color: var(--canvared);
